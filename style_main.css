@@ -1,0 +1,55 @@
+body {margin: 0px; font-family: "Alegreya"}
+a {text-decoration: none; color: black;}
+
+.header {background-color: #dee2e6; height: 110px; width: 100%; position: fixed; display: flex;align-items: center; justify-content: space-around; font-size: 1.2em; position: fixed; 
+    margin-top: -1px; z-index: 100;}
+.search_flex {display: flex; align-items: center;gap: 30px; justify-content: center; position: relative; left: -5%;}
+.search_flex2 {display:flex; align-items: center; gap: 30px;}
+
+.main {padding-top: 100px;}
+
+.plogo {font-size: 1.8em; position: relative;}
+.search {height: 40px; width: 250px; border-radius: 15px; padding-left: 40px;}
+.svg_search {position: relative; left: 60px; top: 3px;}
+
+.product:hover {transition: 0.5s; color: rgb(36, 116, 121);}
+.city:hover {transition: 0.5s; color: rgb(36, 116, 121);}
+.reg:hover {transition: 0.5s; color: rgb(36, 116, 121);}
+.login:hover {transition: 0.5s; color: rgb(36, 116, 121);}
+
+.hits { display: flex; font-size: 2.2em; position: relative; padding-left: 8%;}
+.des {display: flex; font-size: 1.6em; padding-left: 2%;}
+.image {display: flex; justify-content: center; gap: 10px;}
+.img {height: 300px; border: solid #dee2e6}
+
+.des_flex {display: flex; align-items: center; gap: 100px; position: relative; margin-left:40px;}
+
+.des1 {font-size:1.5em}
+.des1p {display: flex; gap: 30px;}
+.d1 {text-decoration: line-through;}
+
+.des2 {font-size:1.5em; position: relative; left: 2%;}
+.des2p {display: flex; gap: 30px;}
+.d2 {text-decoration: line-through;}
+
+.des3 {font-size:1.5em; position: relative; left: -4%;}
+.des3p {display: flex; gap: 30px;}
+.d3 {text-decoration: line-through;}
+
+.des4 {font-size:1.5em; position: relative; left: -8%;}
+.des4p {display: flex; gap: 30px;}
+.d4 {text-decoration: line-through;}
+
+.idea {font-size: 2em; padding-left: 8%;}
+
+.img_flex1 {display: flex; justify-content: center; gap: 30px;margin-top: 40px;opacity: 0;}
+
+.img_flex1.img_flex-show {transition: 1s; opacity: 1;}
+
+.footer {height: 400px;background-color: #dee2e6; width: 100%; margin-top: 100px;}
+.footer_p {display: flex; justify-content: center; font-size: 2em; padding-top: 40px;}
+.footer_p2 {display: flex; justify-content: center; font-size: 1.6em;}
+
+.footer_city {display: flex; justify-content: center; gap: 30px; font-size: 1.2em; text-align: start;}
+.footer_city2 {display: flex; justify-content: center; gap: 30px; font-size: 1.2em; text-align: start; margin-top: 30px;}
+.footer_city3 {display: flex; justify-content: center; gap: 30px; font-size: 1.2em; text-align: start; margin-top: 30px;}
